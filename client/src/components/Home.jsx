@@ -26,7 +26,7 @@ const Home = () => {
       <div className="mt-8">
         {loading ? (
           <div className="flex items-center justify-center -mt-10 h-screen">
-            <img src="/public/loader.svg" height={220} width={220} alt="Loading..." />
+            <img src="/assets/loader.svg" height={220} width={220} alt="Loading..." />
           </div>
         ) : (
           <div className="overflow-x-auto">
