@@ -32,12 +32,13 @@ const Home = () => {
           <div className="overflow-x-auto">
             <table className="table">
               {/* head */}
-              <thead className="bg-indigo-700 text-white round-md">
+              <thead className="bg-[#0c0633] text-white round-md">
                 <tr>
                   <th>#</th>
                   <th>Name</th>
                   <th>Email</th>
                   <th>Phone Number</th>
+                  <th>IP & Device</th>
                 </tr>
               </thead>
               <tbody>
@@ -53,6 +54,7 @@ const Home = () => {
                     </td>
                     <td>{user.email}</td>
                     <td>{user.phone}</td>
+                    <td>{user.ip}{' '}{user.device}</td>
                   </tr>
                 ))}
               </tbody>
