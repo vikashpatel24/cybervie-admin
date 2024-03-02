@@ -38,7 +38,8 @@ const Home = () => {
                   <th>Name</th>
                   <th>Email</th>
                   <th>Phone Number</th>
-                  <th>IP & Device</th>
+                  <th>Device</th>
+                  <th>IP & Location</th>
                 </tr>
               </thead>
               <tbody>
@@ -54,7 +55,8 @@ const Home = () => {
                     </td>
                     <td>{user.email}</td>
                     <td>{user.phone}</td>
-                    <td>{user.ip}{' '}{user.device}</td>
+                    <td>{user.device}</td>
+                    <td>{user.location}</td>
                   </tr>
                 ))}
               </tbody>
